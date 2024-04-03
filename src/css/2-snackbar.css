@@ -1,0 +1,16 @@
+.form{
+    box-sizing: border-box;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    gap: 10px;
+}
+
+input[name^="delay"] {
+    margin-top: 5px;
+    width: 100%;
+}
+fieldset{
+width: 230px;
+}
