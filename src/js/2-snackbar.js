@@ -6,9 +6,9 @@ const delayInput = form.elements.delay;
 const stateInput = form.elements.state;
 
 
-form.addEventListener("submit", test)
+form.addEventListener("submit", formSubmitHandler)
 
-function test(event) {
+function formSubmitHandler(event) {
     event.preventDefault()
     const dalayValue = delayInput.value;
     const stateValue = stateInput.value;
